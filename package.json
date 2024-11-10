@@ -1,10 +1,9 @@
 {
-    
     "private": true,
     "type": "module",
     "scripts": {
         "dev": "vite",
-        "build": "[my-framework] build --output public"
+        "build": "vite build --outDir public"
     },
     "devDependencies": {
         "axios": "^1.7.4",
@@ -14,7 +13,4 @@
     "dependencies": {
         "build": "^0.1.4"
     }
-    
-    
-       
 }
