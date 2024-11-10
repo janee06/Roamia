@@ -3,14 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Japan Trips - Themed Travel</title>
+  <title>Australia Trips - Themed Travel</title>
   <link rel="stylesheet" href="styles.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
-
   <header style="display: flex; align-items: center; justify-content: space-between;">
     <div >
       <button onclick="window.history.back();" style="padding: 10px 20px; font-size: 1.2rem; border-radius: 5px; border: none; background-color: #ff749d; color: white; cursor: pointer;">
@@ -18,86 +14,99 @@
       </button>
     </div>
     <div style="text-align: center; flex: 2;">
-      <h1>Explore Japan with Our Themed Vehicles</h1>
-    <p>Select from a variety of unique themed vehicles for your Japanese adventure.</p>
+      <h1>Explore Australia with Our Themed Vehicles</h1>
+      <p>Select from a variety of unique themed vehicles for your Australian adventure.</p>
     </div>
   </header>
-
+    
 
   <section class="trips">
     <!-- Trip 1 -->
     <div class="trip">
-      <img src="{{ asset('images/japan_ryokan.jpeg') }}" alt="Ryokan Bus">
-      <h3>Ryokan Bus Tour</h3>
-      <p>Explore Kyoto’s ancient temples in a traditional-style Ryokan bus, complete with tatami floors and a tea ceremony.</p>
-      <p><strong>Price:</strong> ¥30,000</p>
-      <a href="japan_trip/ryokan_bus.html"><button>More Info & Book</button></a>
+      <img src="images/campervan.jpg" alt="Campervan Tour">
+      <h3>Campervan Road Trip</h3>
+      <p>Hit the open road in a classic campervan, exploring Australia’s rugged outback and coastal beauty.</p>
+      <p><strong>Price:</strong> $600 AUD</p>
+      <a href="australia_trip/campervan.html"><button>More Info & Book</button></a>
     </div>
 
     <!-- Trip 2 -->
     <div class="trip">
-      <img src="{{ asset('images/samurai.jpeg') }}" alt="Samurai Scooter">
-      <h3>Samurai Scooter Experience</h3>
-      <p>Roam Tokyo’s streets on a scooter, with stops at samurai and ninja-themed attractions.</p>
-      <p><strong>Price:</strong> ¥15,000</p>
-      <a href="japan_trip/samurai_scooter.html"><button>More Info & Book</button></a>
+      <img src="images/4x4_adventure.jpg" alt="4x4 Adventure">
+      <h3>4x4 Adventure in the Outback</h3>
+      <p>Take on the wild terrain of the Australian outback with a rugged 4x4 vehicle and experienced guide.</p>
+      <p><strong>Price:</strong> $700 AUD</p>
+      <a href="australia_trip/4x4_adventure.html"><button>More Info & Book</button></a>
     </div>
 
     <!-- Trip 3 -->
-   
+    <div class="trip">
+      <img src="images/harbor_yacht.jpg" alt="Sydney Harbor Yacht">
+      <h3>Sydney Harbor Yacht Cruise</h3>
+      <p>Enjoy a luxurious yacht cruise around Sydney’s iconic harbor, with views of the Opera House and Harbour Bridge.</p>
+      <p><strong>Price:</strong> $1000 AUD</p>
+      <a href="australia_trip/harbor_yacht.html"><button>More Info & Book</button></a>
+    </div>
 
     <!-- Trip 4 -->
     <div class="trip">
-      <img src="{{ asset('images/sakura.jpeg') }}" alt="Sakura Bike Tour">
-      <h3>Sakura Bike Tour</h3>
-      <p>Cycle through the cherry blossoms of Japan’s beautiful parks during sakura season with a local guide.</p>
-      <p><strong>Price:</strong> ¥12,000</p>
-      <a href="japan_trip/sakura_bike.html"><button>More Info & Book</button></a>
+      <img src="images/helicopter_australia.jpg" alt="Helicopter">
+      <h3>Great Barrier Reef Helicopter Tour</h3>
+      <p>Fly above the stunning Great Barrier Reef and experience the world’s largest coral reef system from the sky.</p>
+      <p><strong>Price:</strong> $1500 AUD</p>
+      <a href="australia_trip/great_barrier_helicopter.html"><button>More Info & Book</button></a>
     </div>
 
     <!-- Trip 5 -->
     <div class="trip">
-      <img src="{{ asset('images/helicopter.jpeg') }}" alt="Helicopter">
-      <h3>Tokyo Skyline Helicopter Ride</h3>
-      <p>Get an unbeatable view of Tokyo’s famous skyline with a thrilling helicopter ride.</p>
-      <p><strong>Price:</strong> ¥150,000</p>
-      <a href="japan_trip/tokyo_helicopter.html"><button>More Info & Book</button></a>
+      <img src="images/uluru_bike.jpg" alt="Uluru Bike Tour">
+      <h3>Uluru Bike Tour</h3>
+      <p>Cycle around the base of the iconic Uluru, a sacred site in Australia’s Red Centre, with a knowledgeable guide.</p>
+      <p><strong>Price:</strong> $150 AUD</p>
+      <a href="australia_trip/uluru_bike.html"><button>More Info & Book</button></a>
     </div>
     <div class="trip">
-      <img src="{{ asset('images/rickshaw.jpg') }}" alt="Dragon Rickshaw Ride">
-      <h3>Dragon Rickshaw Ride in Kyoto</h3>
-      <p>Experience the ancient streets of Kyoto in a traditional rickshaw, styled like a mythical Japanese dragon.</p>
-      <p><strong>Price:</strong> ¥25,000</p>
-      <a href="japan_trip/dragon_rickshaw.html"><button>More Info & Book</button></a>
+      <img src="images/koala_safari.jpg" alt="Koala Safari">
+      <h3>Koala Safari Tour</h3>
+      <p>Travel in a safari vehicle to the lush forests of Australia, where you can observe koalas in their natural habitat.</p>
+      <p><strong>Price:</strong> $400 AUD</p>
+      <a href="australia_trip/koala_safari.html"><button>More Info & Book</button></a>
     </div>
 
     <!-- Trip 7 -->
+    <div class="trip">
+      <img src="images/fraser_island_4x4.jpg" alt="Fraser Island 4x4 Adventure">
+      <h3>Fraser Island 4x4 Adventure</h3>
+      <p>Explore the world's largest sand island, Fraser Island, in a 4x4 vehicle, stopping at breathtaking beaches and freshwater lakes.</p>
+      <p><strong>Price:</strong> $750 AUD</p>
+      <a href="australia_trip/fraser_island_4x4.html"><button>More Info & Book</button></a>
+    </div>
 
     <!-- Trip 8 -->
     <div class="trip">
-      <img src="{{ asset('images/japan_scooter.jpeg') }}" alt="Samurai Motorcycle Tour">
-      <h3>Samurai Motorcycle Adventure</h3>
-      <p>Ride a motorcycle through the streets of Japan with a samurai-inspired theme, from Tokyo to Edo-era landmarks.</p>
-      <p><strong>Price:</strong> ¥35,000</p>
-      <a href="japan_trip/samurai_motorcycle.html"><button>More Info & Book</button></a>
+      <img src="images/safari_camper.jpg" alt="Outback Safari Camper">
+      <h3>Outback Safari Camper</h3>
+      <p>Experience Australia’s outback with a rugged camper, complete with supplies for a true wilderness adventure.</p>
+      <p><strong>Price:</strong> $800 AUD</p>
+      <a href="australia_trip/outback_safari_camper.html"><button>More Info & Book</button></a>
     </div>
 
     <!-- Trip 9 -->
     <div class="trip">
-      <img src="{{ asset('images/vzum.jpg') }}" alt="Haiku-Themed Car Tour">
-      <h3>Haiku-Themed Car Tour</h3>
-      <p>Explore the serene Japanese countryside in a Haiku-themed car, with poetry-inspired stops at historical landmarks.</p>
-      <p><strong>Price:</strong> ¥22,000</p>
-      <a href="japan_trip/haiku_car.html"><button>More Info & Book</button></a>
+      <img src="images/snorkel_boat.jpg" alt="Snorkeling Boat">
+      <h3>Great Barrier Reef Snorkeling Boat</h3>
+      <p>Hop aboard a luxury boat for an unforgettable snorkeling adventure at the Great Barrier Reef, surrounded by vibrant marine life.</p>
+      <p><strong>Price:</strong> $350 AUD</p>
+      <a href="australia_trip/great_barrier_snorkel.html"><button>More Info & Book</button></a>
     </div>
 
     <!-- Trip 10 -->
     <div class="trip">
-      <img src="{{ asset('images/robottaxi.jpeg') }}" alt="Robot Taxi Adventure">
-      <h3>Robot Taxi Ride in Tokyo</h3>
-      <p>Take a ride in a futuristic robot taxi and experience Tokyo’s tech-forward innovation while touring the city’s futuristic districts.</p>
-      <p><strong>Price:</strong> ¥50,000</p>
-      <a href="japan_trip/robot_taxi.html"><button>More Info & Book</button></a>
+      <img src="images/surf_4x4.jpg" alt="Surf Safari 4x4">
+      <h3>Surf Safari 4x4</h3>
+      <p>Hit Australia’s best surf spots in a 4x4, and spend the day riding the waves at the country’s most iconic beaches.</p>
+      <p><strong>Price:</strong> $650 AUD</p>
+      <a href="australia_trip/surf_4x4.html"><button>More Info & Book</button></a>
     </div>
   </section>
 
